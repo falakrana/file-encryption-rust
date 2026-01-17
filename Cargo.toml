@@ -1,0 +1,8 @@
+[workspace]
+members = [
+    "file_encryptor",
+    "core",
+    "wasm"
+]
+resolver = "2"
+

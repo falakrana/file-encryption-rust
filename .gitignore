@@ -1,0 +1,29 @@
+/target/
+
+# Node.js / Web
+/web_app/node_modules/
+/web_app/dist/
+/web_app/dist-ssr/
+/web_app/*.local
+/web_app/build.log
+
+# WASM build artifacts
+/wasm/pkg/
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
