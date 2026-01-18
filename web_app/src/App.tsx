@@ -24,7 +24,7 @@ export default function App() {
       init_panic_hook();
       setIsWasmReady(true);
       console.log("WASM Initialized");
-    }).catch(e => {
+    }).catch((e: any) => {
       console.error("WASM Init Failed", e);
       setError("Failed to initialize encryption engine.");
     });
